@@ -1,0 +1,30 @@
+{
+  "structures": ["prostate"],
+  "imageType": {"Original": {}},
+  "settings": {
+    "firstOrder": {"binWidthEntropy": 25, "offsetForEnergy": 0},
+    "texture": {
+      "binwidth": 25,
+      "minSegThreshold": -1000,
+      "maxSegThreshold": 1000,
+      "minClipIntensity": -1000,
+      "maxClipIntensity": 1000,
+      "directionality": "3D",
+      "avgType": "feature",
+      "voxelOffset": 1,
+      "patchRadiusVox": [1, 1, 1],
+      "imgDiffThresh": 0
+    },
+    "shape": {"rcs": []}
+  },
+  "featureClass": {
+    "shape": {"featureList": ["all"]},
+    "firstOrder": {"featureList": ["all"]},
+    "glcm": {"featureList": ["all"]},
+    "glrlm": {"featureList": ["all"]},
+    "glszm": {"featureList": ["all"]},
+    "gtdm": {"featureList": ["all"]},
+    "gldm": {"featureList": ["all"]}
+  },
+  "toQuantizeFlag": 1
+}

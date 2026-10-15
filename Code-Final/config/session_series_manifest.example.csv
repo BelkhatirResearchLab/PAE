@@ -1,0 +1,2 @@
+patient_id,series_uid,series_folder,source_file_count,status
+PAE1,1.2.3.4.5,1_2_3_4_5,300,ok

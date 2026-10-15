@@ -1,0 +1,194 @@
+{
+  "snapshot_date": "2026-10-15",
+  "excluded_operational_files": [
+    "run_ipss3m_watchdog.ps1",
+    "run_ipss3m_watchdog.py"
+  ],
+  "core_files": [
+    {
+      "path": "Code-Final/.gitignore",
+      "sha256": "6fca00f5a96f30889f3b5292b9ad4e57da5b348d8e66f590739c1dfb4c4d6d34",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/PROJECT_ADJUSTMENTS.md",
+      "sha256": "01778069e51205f906fabc4201db7bdb2b6d44d35c230976b4f029541f1deeba",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/README.md",
+      "sha256": "86516c09796fd65b5f5f5fe3f1507171223cd44708ae97ef1749e928cd6fe923",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/requirements.txt",
+      "sha256": "98d26820f393e062139c723f5f1106ec44df60888f1e3effdd8ddf27e3a76fd3",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/run_all.py",
+      "sha256": "f1817f3c23b6e1a38fb35333d177dd6efa4dbc1be9a513078a647f93b42d30e5",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/run_ipss3m.py",
+      "sha256": "f6a9b93bd1a2f9362afa63aaf63c668f49a612d06e73a8a556aa8bfa1da4cf82",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/run_pipeline.ps1",
+      "sha256": "307e1d9d4626bcca1cb8c292b3e4c37c54a96bfa338422206f4324281b7b3eba",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/config/cerr_core_radiomics_params_full_original.json",
+      "sha256": "6d3dd666a5954236186264445d085590c32517b27047f8998b2825d8b7b2fc9e",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/config/pipeline_config.example.json",
+      "sha256": "2cddabc10e724fe9a0084aa834bed1929abe1d41f081451643dabe57b551e9cd",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/config/regression_feature_schema.json",
+      "sha256": "13a84d4e1c88c557f05242dd203cfa09c1958e70052a5402408a4902f6315d14",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/config/regression_ipss3m.json",
+      "sha256": "6e7aae949302679b7a836c1f28e36d64203054c925a4b515235df58ced3cdce6",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/config/session_series_manifest.example.csv",
+      "sha256": "0ee7d984824e8118e67e3ab5cf5a58942eda58339ba73a9ef8d3c7beb9087932",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/01_match_ct_masks.py",
+      "sha256": "490e92ea53e5e74ace7dc1fd40d86fae83155d99ccc86662e655a4a85540f142",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/02_export_segmentation_review.py",
+      "sha256": "55615b4c7cabc8cc800df6e04a2a11942f0c195a3aaaf1f8ab780a034c3bf7c2",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/03_prepare_cerr_inputs.py",
+      "sha256": "1a357e805192ed9ffbb54a8f6771dcdfadd48be5300962dbc7904eb47057ed43",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/04_extract_cerr_radiomics.py",
+      "sha256": "f617d651710aabdec25b0b6bc2734cbcf1664a75339c320c369f724acbb5544a",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/05_build_and_qc_radiomics_table.py",
+      "sha256": "23ad619dc97d3387031a546ad8f35f882e598a765f6fe32ac9f1484d3040a892",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/06_prepare_modelling_data.py",
+      "sha256": "8d67923f236d41d0548b1019ec393122cda597b4199df0a8ec033b3d4e196fb8",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/07_baseline_regression.py",
+      "sha256": "25fbc1c691014b98f74d4309acfdcfa927ac44c2590a5931e6bd972d7ff17cac",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/08_pca_lasso_ablation.py",
+      "sha256": "0755d8e8520a07ba906af51098fca3e786a8fde99ca5a28193e35ec6c3d15f05",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/09_additional_regression_models.py",
+      "sha256": "f53a53318ea6168aaefc91de05a2314aebae2e3e39cec2a5b2227c8efc244f92",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/10_bootstrap_stability.py",
+      "sha256": "e8a86e0f284baa451b7af10484d26c76d37c00b0f1dc5a1ee82148bf71e48b14",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/11_feature_importance.py",
+      "sha256": "814ecba22ba6260db42fdbf3fff313edee504a3191b8277bd8f9b17934131660",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/12_secondary_classification.py",
+      "sha256": "32781dc13c686ac0a8cf03b27cdf424455f91619cc3438cf8cd83b286c88a79c",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/step00_build_session_manifest.m",
+      "sha256": "fb33d4dc1934ab5dd264f6057d067db6291228618240bf1d152cc15a7e45769d",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/step04_extract_cerr_radiomics.m",
+      "sha256": "189196a7cbd28b0bec741b323c970b55241fa3ad1820b695df9c9c3f59d3230e",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/tests/test_common.py",
+      "sha256": "b194a3ca308ca3a0dc183d30c4671642226660a207f176c3797791498fdcd458",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/tests/test_mask_alignment.py",
+      "sha256": "c550f8afabfa882538b24ac9b84b6ca9774f54e09c14fec99ae720ae049c161b",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/tests/test_regression.py",
+      "sha256": "057b01302bae9bbf90a518c9c8572f446d026d135cc2d2f9a2917bab06f7a347",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/tests/test_regression_endpoint.py",
+      "sha256": "e7b5b4ee9a17b33c67fd1d19a7ec9423ae3e0c15854d1a8c60e90ed899e9fb5d",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/tests/__init__.py",
+      "sha256": "7df97a81aa10a9964b490f05ec70fa854a4615d2d088aed5d873fa8a29544b05",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/common/feature_processing.py",
+      "sha256": "a5fcb284691ce00f8b9fa329ba2d7670bc773e8992f1851d4b53edd6820fe8bb",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/common/io_utils.py",
+      "sha256": "c78f9d15ec18d2d8750234b63bd4be9adc4c71449814e7e21d96596f213a3321",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/common/metrics.py",
+      "sha256": "d4e5855a2c56f1e4ef8f43e92b0bc4cf99b62bf0a5426186e734852ad640d960",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/common/regression.py",
+      "sha256": "34255e5849acb98dc9fecf2067bebd1e476f99b6f7208256e61563034043e09b",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/common/regression_data.py",
+      "sha256": "f8165e9d62593ee4a4a548e8b85d54fbf400b18f846ff0605f62d32487925137",
+      "source_identical": true
+    },
+    {
+      "path": "Code-Final/src/common/__init__.py",
+      "sha256": "a6449de9f14b4d0002b3c5da7af07801e747069fdcaf037e07e55204398f0174",
+      "source_identical": true
+    }
+  ]
+}
